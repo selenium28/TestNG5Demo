@@ -1,38 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="328" started-at="2022-03-05T10:08:21 IST" finished-at="2022-03-05T10:08:21 IST">
+  <suite name="Default suite" duration-ms="2123" started-at="2022-03-06T09:10:01 IST" finished-at="2022-03-06T09:10:03 IST">
     <groups>
-      <group name="Regression">
-        <method signature="IncludeExcludeClass.testCaseTwo()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseTwo" class="core.IncludeExcludeClass"/>
-      </group> <!-- Regression -->
-      <group name="smoke">
-        <method signature="IncludeExcludeClass.testCaseFive()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseFive" class="core.IncludeExcludeClass"/>
-        <method signature="IncludeExcludeClass.testCaseOne()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseOne" class="core.IncludeExcludeClass"/>
-        <method signature="IncludeExcludeClass.testCaseThree()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseThree" class="core.IncludeExcludeClass"/>
-        <method signature="IncludeExcludeClass.testCaseTwo()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseTwo" class="core.IncludeExcludeClass"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="328" started-at="2022-03-05T10:08:21 IST" finished-at="2022-03-05T10:08:21 IST">
-      <class name="core.IncludeExcludeClass">
-        <test-method status="PASS" signature="testCaseFive()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseFive" duration-ms="23" started-at="2022-03-05T10:08:21 IST" finished-at="2022-03-05T10:08:21 IST">
+    <test name="Default test" duration-ms="2123" started-at="2022-03-06T09:10:01 IST" finished-at="2022-03-06T09:10:03 IST">
+      <class name="parameter.DataProviderClass">
+        <test-method status="PASS" signature="testCase(int, int, int)[pri:0, instance:parameter.DataProviderClass@149cea0]" name="testCase" duration-ms="123" started-at="2022-03-06T09:10:03 IST" data-provider="testData" finished-at="2022-03-06T09:10:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseFive -->
-        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseOne" duration-ms="1" started-at="2022-03-05T10:08:21 IST" finished-at="2022-03-05T10:08:21 IST">
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(int, int, int)[pri:0, instance:parameter.DataProviderClass@149cea0]" name="testCase" duration-ms="2" started-at="2022-03-06T09:10:03 IST" data-provider="testData" finished-at="2022-03-06T09:10:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseOne -->
-        <test-method status="PASS" signature="testCaseThree()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseThree" duration-ms="1" started-at="2022-03-05T10:08:21 IST" finished-at="2022-03-05T10:08:21 IST">
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(int, int, int)[pri:0, instance:parameter.DataProviderClass@149cea0]" name="testCase" duration-ms="2" started-at="2022-03-06T09:10:03 IST" data-provider="testData" finished-at="2022-03-06T09:10:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseThree -->
-        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:core.IncludeExcludeClass@e048a]" name="testCaseTwo" duration-ms="2" started-at="2022-03-05T10:08:21 IST" finished-at="2022-03-05T10:08:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseTwo -->
-      </class> <!-- core.IncludeExcludeClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testCase -->
+      </class> <!-- parameter.DataProviderClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
