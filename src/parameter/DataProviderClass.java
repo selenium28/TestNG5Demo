@@ -9,19 +9,17 @@ public class DataProviderClass {
 	
 	@DataProvider
 	public Object[][] testData(){
-		Object[][] data = new Object[3][3];
+		Object[][] data = new Object[2][2];
 		
 		data[0][0] = "Java";
 		data[0][1] = 2;
-		data[0][2] = 'c';
 		
 		data[1][0] = 4;
 		data[1][1] = 5;
-		data[1][2] = 6;
 		
-		data[2][0] = 7;
-		data[2][1] = 8;
-		data[2][2] = 9;
+//		data[2][0] = 7;
+//		data[2][1] = 8;
+//		data[2][2] = 9;
 		
 		return data;
 	}

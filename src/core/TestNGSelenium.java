@@ -13,13 +13,7 @@ public class TestNGSelenium {
 
 	@BeforeMethod
 	public void beforeMethod() {
-		String url = "https://opensource-demo.orangehrmlive.com/";
-
-		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get(url);
-		driver.manage().window().maximize();
-
+		
 	}
 
 	@Test (priority = 1)

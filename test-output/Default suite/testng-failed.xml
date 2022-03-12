@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parameter.IfElseBrowserClass">
+      <class name="asert.DependsOnMethod">
         <methods>
-          <include name="launchBrowser"/>
+          <include name="regression"/>
+          <include name="smoke"/>
         </methods>
-      </class> <!-- parameter.IfElseBrowserClass -->
+      </class> <!-- asert.DependsOnMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
