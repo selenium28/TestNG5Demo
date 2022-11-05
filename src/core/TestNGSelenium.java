@@ -11,10 +11,7 @@ import org.testng.annotations.AfterMethod;
 public class TestNGSelenium {
 	WebDriver driver;
 
-	@BeforeMethod
-	public void beforeMethod() {
-		
-	}
+	
 
 	@Test (priority = 1)
 	public void inValidLogin() {
@@ -75,11 +72,5 @@ public class TestNGSelenium {
 		System.out.println("4: Valid username and password : Passed");
 
 	}
-
-	@AfterMethod
-	public void afterMethod() {
-		driver.quit();
-	}
-
 
 }

@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="asert.DependsOnMethod">
+      <class name="parameter.SeleniumDataProvider">
         <methods>
-          <include name="regression"/>
-          <include name="smoke"/>
+          <include name="testCase" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- asert.DependsOnMethod -->
+      </class> <!-- parameter.SeleniumDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
